@@ -40,7 +40,6 @@ void check(){
         }
     }
 
-    // printf("%d\n", t);
     if(spread == empty_place) {
         ans = min(ans, t);
     }
@@ -61,7 +60,6 @@ void dfs(int idx){
 
 int main(void){
     ans = 1e9;
-    empty_place = 0;
     scanf("%d %d", &n, &m);
     for(int i = 0; i < n; ++i){
         for(int j = 0; j < n; ++j){
